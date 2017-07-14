@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+      integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+    crossorigin="anonymous"></script>
+    <title>Trivia Game</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="start-container">
+        <div class="start">
+        <h2>Trivia Game</h2>
+        <h2>Best of South America</h2>
+        <button id="start">Start</button>
+        </div>
+      </div>
+      <div class="quiz">  
+        <h1>Best of South America</h1>
+        <h2>Time Remaining <span id="display">00:45</span> Seconds</h2>
+        <h4>Which is the largest country in South America?</h4>
+            <input type="radio" name="radio1" value="0">Venezuela
+            <input type="radio" name="radio1" value="0">Colombia
+            <input type="radio" name="radio1" value="0">Argentina
+            <input type="radio" name="radio1" value="1">Brazil
+        
+        <br>
+         <h4>Which is the smallest country in South America?</h4>
+            <input type="radio" name="radio2" value="0">Peru
+            <input type="radio" name="radio2" value="0">Chile
+            <input type="radio" name="radio2" value="0">Ecuador
+            <input type="radio" name="radio2" value="1">Suriname
+    
+        <br>
+        <h4>The capital city of Peru is?</h4>
+            <input type="radio" name="radio3" value="0">Cuzco
+            <input type="radio" name="radio3" value="0">Buenos Aires
+            <input type="radio" name="radio3" value="0">Bogota
+            <input type="radio" name="radio3" value="1">Lima
+
+        <br>
+        <h4>Which is the largest river in South America?</h4>
+            <input type="radio" name="radio4" value="0">Seine
+            <input type="radio" name="radio4" value="1">Amazon
+            <input type="radio" name="radio4" value="0">Thames
+            <input type="radio" name="radio4" value="0">Nile
+
+        <br>
+        <h4>What is the capital of Brazil?</h4>
+            <input type="radio" name="radio5" value="0">Rio de Janeiro
+            <input type="radio" name="radio5" value="0">Belo Horizonte
+            <input type="radio" name="radio5" value="1">Brasilia
+            <input type="radio" name="radio5" value="0">Porto Alegre
+
+        <br>
+        <h4>Where is the southernmost city in South America and in the world?</h4>
+            <input type="radio" name="radio6" value="0">Punta Arenas
+            <input type="radio" name="radio6" value="0">Montevideo
+            <input type="radio" name="radio6" value="0">Asuncion
+            <input type="radio" name="radio6" value="1">Tierra del Fuego
+
+          <br>
+        <h4>What is the highest mountain in South America?</h4>
+            <input type="radio" name="radio7" value="0">Huascaran
+            <input type="radio" name="radio7" value="0">Ojos del Salado
+            <input type="radio" name="radio7" value="1">Aconcagua
+            <input type="radio" name="radio7" value="0">Tipas
+
+        <br>
+        <h4>How many FIFA World Cups has South America won?</h4>
+            <input type="radio" name="radio8" value="1">9
+            <input type="radio" name="radio8" value="0">None
+            <input type="radio" name="radio8" value="0">14
+            <input type="radio" name="radio8" value="0">7
+        
+        <br>
+        <br>
+        <button id="done">Done</button>
+      </div>
+      <div class="game-over-container">
+        <div class="game-over">
+          <h2>Best of South America</h2>
+          <h3>All Done!</h3>
+          <h4>Correct Answers:<span id="correct"></span></h4>
+          <h4>Incorrect Answers:<span id="incorrect"></span></h4>
+          <h4>Unanswered:<span id="unanswered"></span></h4>
+        </div>
+
+      </div>
+    </div>
+
+
+      <!-- Script -->
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+
+  </body>
+
+</html>
